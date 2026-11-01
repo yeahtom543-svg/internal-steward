@@ -1,0 +1,15 @@
+{
+  "name": "internal-steward",
+  "version": "1.0.0",
+  "description": "内务大总管：企业微信个人日程助手（脱敏源码）",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "test:model": "node tests/model-eval.js",
+    "check:secrets": "node scripts/check-secrets.js"
+  },
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.14.0"
+  },
+  "private": true
+}
